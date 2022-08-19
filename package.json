@@ -10,11 +10,11 @@
     "moralis:cloud": "moralis-admin-cli watch-cloud-folder --moralisApiKey LjBNPTX0nAl3Rb9 --moralisApiSecret DDUAGXQJjMvIwzD --moralisSubdomain ikkrfwq5mdrc.usemoralis.com --autoSave 1 --moralisCloudfolder ./cloudFunctions"
   },
   "dependencies": {
-    "moralis": "^2.0.1",
+    "moralis": "1.11.0",
     "next": "12.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-moralis": "^1.4.1",
+    "react-moralis": "1.3.5",
     "web3uikit": "^0.1.159"
   },
   "devDependencies": {
