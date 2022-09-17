@@ -7,7 +7,7 @@ const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}  >
+      <MoralisProvider initializeOnMount={false}  /*appId={APP_ID} serverUrl={SERVER_URL} */ >
         <NotificationProvider>
           <Header></Header>
           <Component {...pageProps} />
